@@ -1,0 +1,1 @@
+In this challenge I'm going to destruct a web page and reconstruct it to see how does the web work.
