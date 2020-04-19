@@ -45,7 +45,7 @@
 }
 #search-place{
     display: flex;
-    border: 1px solid gray;
+    border: 1px solid rgb(153, 153, 153);
     border-radius: 20px;
     margin-left: 420px;
     margin-right: 420px;
@@ -77,6 +77,12 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+.but:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
 #search-google {
     font-size: 13px;
     margin-left: 533px;
@@ -87,8 +93,8 @@
 }
 #advice {
     font-size: 14px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 115px;
     text-align: center;
     text-decoration: none;
     color: rgb(130, 130, 130);
@@ -113,25 +119,47 @@
     font-size: 13px;
     color: gray;
     margin-bottom: 0px;
+    text-decoration: none;
 }
 #footer-info1 {
     margin-left: 30px;
 }
+#footer-info1:hover {
+    text-decoration: underline;
+}
 #footer-info2 {
     margin-left: 30px;
+}
+#footer-info2:hover {
+    text-decoration: underline;
 }
 #footer-info3 {
     margin-left: 30px;
 }
+#footer-info3:hover {
+    text-decoration: underline;
+}
 #footer-info4 {
     margin-left: 30px;
+}
+#footer-info4:hover {
+    text-decoration: underline;
 }
 #footer-info5 {
     margin-left: 650px;
 }
+#footer-info5:hover {
+    text-decoration: underline;
+}
 #footer-info6 {    
     margin-left: 30px;
 }
+#footer-info6:hover {
+    text-decoration: underline;
+}
 #footer-info7 {
     margin-left: 30px;
+}
+#footer-info7:hover {
+    text-decoration: underline;
 }
