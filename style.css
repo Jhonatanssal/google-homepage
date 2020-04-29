@@ -1,3 +1,6 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .container {
     display:  flex;
     flex-direction: row;
@@ -8,7 +11,7 @@
     margin: 20px;
 }
 #item-1 {
-    margin-left: 1020px;
+    margin-left: 1040px;
     font-size: 13px;
     text-decoration: none;
     color: gray;
@@ -17,7 +20,7 @@
     text-decoration: underline;
 }
 #item-2 {
-    margin-left: 50px; 
+    margin-left: 25px; 
     font-size: 13px; 
     text-decoration: none;
     color: gray;  
@@ -25,18 +28,34 @@
 #item-2:hover {
     text-decoration: underline;
 }
+#container2 {
+    display: grid;
+    grid-template-columns: 4px 4px 4px;
+    grid-template-rows: 4px 4px 4px;
+    grid-gap: 2px;
+    margin-left: 20px;
+}
+#container2:hover {
+    box-shadow: 0px 0px 5px rgba(80, 80, 80, 0.3);
+    background-color: rgba(60, 60, 60, 0.1);
+}
+#container2 > div {
+    background-color: rgb(50, 50, 50);
+}
 #sign-in {
-    background-color: blue;
-    margin-left: 60px;
-    height: 25px;
+    background-color: rgba(76, 123, 253, 0.753);
+    margin-left: 30px;
+    height: 30px;
+    width: 70px;
     border-radius: 2px;
-    align-content: center;
+    text-align: center;
 }
 #item-3 {
-    font-size: 13px;
-    padding: 15px 10px 10px 10px;
+    font-size: 12px;
+    margin-top: 50px;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 #img {
     margin: 130px 530px auto; 
@@ -73,7 +92,7 @@
 .but {
     background-color: rgba(180, 180, 180, 0.3);
     height: 40px;
-    width: 125px;
+    width: 130px;
     border: 1px solid white;
     border-radius: 5px;
 }
@@ -90,6 +109,7 @@
 #feeling-lucky {
     font-size: 13px;
     margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #advice {
     font-size: 14px;
@@ -123,42 +143,56 @@
 }
 #footer-info1 {
     margin-left: 30px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info1:hover {
     text-decoration: underline;
 }
 #footer-info2 {
     margin-left: 30px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info2:hover {
     text-decoration: underline;
 }
 #footer-info3 {
     margin-left: 30px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info3:hover {
     text-decoration: underline;
 }
 #footer-info4 {
     margin-left: 30px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info4:hover {
     text-decoration: underline;
 }
 #footer-info5 {
     margin-left: 650px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info5:hover {
     text-decoration: underline;
 }
 #footer-info6 {    
     margin-left: 30px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info6:hover {
     text-decoration: underline;
 }
 #footer-info7 {
     margin-left: 30px;
+    text-decoration: none;
+    color: gray;
 }
 #footer-info7:hover {
     text-decoration: underline;
