@@ -13,7 +13,7 @@ Building an HTML and css page that matches the appearance of this page [NYT Spac
 
 # Live Demo
 
-[Click here for Live Demo](https://jssarrazolaa.github.io/NYT-Article-Space-Ripples_MPS/)
+[Click here for Live Demo](https://jssarrazolaa.github.io/google-homepage/)
 
 # Getting Started
 
